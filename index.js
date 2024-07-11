@@ -1,6 +1,6 @@
 // Add your code here
-let name;
-let email;
+let name="Nobert Muma"
+let email="mumanobert17@gmail.com"
 const body=document.querySelector("body")
 function submitData(name, email){
     return fetch("http://localhost:3000/users", {
@@ -37,6 +37,6 @@ function submitData(name, email){
     })
 
 }
-submitData(ba, nm)
+submitData(name, email)
 
 
